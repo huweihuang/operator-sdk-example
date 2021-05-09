@@ -2,6 +2,10 @@ domain: github.com
 layout: go.kubebuilder.io/v2
 projectName: operator-sdk-example
 repo: github.com/huweihuang/operator-sdk-example
+resources:
+- group: apps
+  kind: EtcdCluster
+  version: v1
 version: 3-alpha
 plugins:
   go.sdk.operatorframework.io/v2-alpha: {}
