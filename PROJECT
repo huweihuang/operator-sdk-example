@@ -1,0 +1,7 @@
+domain: github.com
+layout: go.kubebuilder.io/v2
+projectName: operator-sdk-example
+repo: github.com/huweihuang/operator-sdk-example
+version: 3-alpha
+plugins:
+  go.sdk.operatorframework.io/v2-alpha: {}
